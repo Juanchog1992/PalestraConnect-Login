@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7A00">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="30dp">
+
+        <!-- Espacio superior -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <!-- Logo / Nombre -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/logo_palestra"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="Logo Palestra Connect"/>
+        <TextView
+            android:id="@+id/txtLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PALESTRA CONNECT"
+            android:textColor="#121212"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrena. Recupera. Evoluciona."
+            android:textColor="#BDBDBD"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Espacio -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <!-- Correo -->
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="#121212"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9E9E9E"
+            android:padding="15dp"/>
+
+        <!-- Contraseña -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:backgroundTint="#121212"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9E9E9E"
+            android:padding="15dp"/>
+
+        <!-- Botón Login -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="35dp"
+            android:text="INICIAR SESIÓN"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#121212"/>
+
+        <!-- Botón registro -->
+        <TextView
+            android:id="@+id/txtRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes cuenta? Regístrate"
+            android:textColor="#121212"
+            android:textSize="14sp"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

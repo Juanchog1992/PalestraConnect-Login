@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Saludo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hola 👋"
+            android:textColor="#9E9E9E"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a Palestra Connect"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Buscador -->
+        <EditText
+            android:id="@+id/etBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Buscar entrenador o fisioterapeuta"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9E9E9E"
+            android:backgroundTint="#FF7A00"
+            android:padding="15dp"/>
+
+        <!-- Categorías -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servicios"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Entrenadores -->
+        <Button
+            android:id="@+id/btnEntrenadores"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="💪 ENTRENADORES PERSONALES"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF7A00"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Fisioterapia -->
+        <Button
+            android:id="@+id/btnFisio"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="🩺 FISIOTERAPIA"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1E1E1E"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Reservas -->
+        <Button
+            android:id="@+id/btnReservas"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="📅 RESERVAS"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1E1E1E"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Perfil -->
+        <Button
+            android:id="@+id/btnPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="👤 PERFIL"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1E1E1E"/>
+
+    </LinearLayout>
+
+</ScrollView>
